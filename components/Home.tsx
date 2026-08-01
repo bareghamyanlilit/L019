@@ -41,7 +41,7 @@ export function Home() {
       ></div>
       <div
         onClick={() => setOpenEnvelope(true)}
-        className={`${openEnvelope ? "animate-bounceYT" : ""} rotate-225 bg-center bg-cover z-50 w-[160vw] h-[160vw] rounded-4xl absolute left-1/2 -bottom-[50%] -translate-x-1/2 -translate-y-1/2   `}
+        className={`${openEnvelope ? "animate-bounceYT" : ""} rotate-225 bg-center bg-cover z-50 w-[180vw] h-[180vw] rounded-4xl absolute left-1/2 -bottom-[60%] -translate-x-1/2 -translate-y-1/2   `}
         style={{ backgroundImage: `url("/envelope.png")` }}
       ></div>
       <img

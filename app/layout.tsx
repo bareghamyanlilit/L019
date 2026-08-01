@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     siteName: "Արամ և Սաթեն",
     images: [
       {
-        url: "https://l019.vercel.app/img1.png",
+        url: "/img1.png",
         width: 1200,
         height: 630,
       },

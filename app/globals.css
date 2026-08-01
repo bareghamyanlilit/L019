@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family:"HMK" ;
+  src: url('/font/ARM\ HMK\'S\ SCRIPT.TTF');
+}
+.FontArmHmk{
+  font-family: "HMK";
+  
+}
+
+@font-face {
+  font-family:"ArTarumianBarakU" ;
+  src: url('/font/ArTarumianBarakU-Bold.ttf');
+}
+.FontArTarumianBarakU{
+  font-family: "ArTarumianBarakU";
+  
+}
+@font-face {
+  font-family:"ArmenianDecorativeU" ;
+  src: url('/font/ArmenianDecorativeU-Italic.woff2');
+}
+.FontArmDecorative{
+  font-family: "ArmenianDecorativeU";
+  
+}
+
+@font-face {
+  font-family:"BraindDoctor" ;
+  src: url('/font/BraindDoctor.otf');
+}
+.FontBraindDoctor{
+  font-family: "BraindDoctor";
+  
+}
+/* //////////////////////////////////////////// */
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+.animate-marquee-2 {
+  animation: marquee2 20s linear infinite;
+}
+.text-guyn {
+  color: #580000;
+}
+.text-sovorakan{
+  color: #f3edda;
+}
+.text-vrayi {
+  color: #f3edda;
+}
+.text-taki {
+  color: #f3edda ;
+}
+.bg-guyn {
+  background: #f3edda;
+}
+
+.border-guyn {
+  border-color: #f3edda;
+}
+.rotate-infinite {
+  animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+.animate-marquee-2 {
+  animation: marquee2 20s linear infinite;
+}
+
+
+
+
+/* ....................CRAR................ */
+
+
+
+@media (min-width: 768px) {
+  @keyframes bounceYB {
+    0% {
+      top: 10%;
+    }
+    100% {
+      top: -100%;
+      display: none;
+    }
+  }
+
+  .animate-bounceYB {
+    animation: bounceYB 2s ease forwards;
+  }
+
+  @keyframes bounceYT {
+    0% {
+      bottom: -50%;
+    }
+    100% {
+      bottom:-180%;
+      display: none;
+    }
+  }
+
+  .animate-bounceYT {
+    animation: bounceYT 2s ease forwards;
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes bounceYB {
+    0% {
+      top: 10%;
+    }
+    100% {
+      top: -100%;
+      display: none;
+    }
+  }
+
+  .animate-bounceYB {
+    animation: bounceYB 2s ease forwards;
+  }
+
+  @keyframes bounceYT {
+    0% {
+      bottom: -50%;
+    }
+    100% {
+      bottom:-180%;
+      display: none;
+    }
+  }
+
+  .animate-bounceYT {
+    animation: bounceYT 2s ease forwards;
+  }
+}

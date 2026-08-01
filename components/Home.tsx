@@ -149,7 +149,7 @@ export function Home() {
             alt="icon1"
             width={500}
             height={500}
-            className=" w-60  rotate-5  mr-10 object-cover mb-10  justify-self-end"
+            className=" w-60  rotate-5  mr-10 object-cover mb-10  ml-30"
           />
         </div> 
         
